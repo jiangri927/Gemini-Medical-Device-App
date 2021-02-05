@@ -1,0 +1,194 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AMProgressBar (0.1.0)
+  - AWSAuthCore (2.12.5):
+    - AWSCore (= 2.12.5)
+  - AWSCognitoIdentityProvider (2.12.5):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.12.5)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.12.5)
+  - AWSIoT (2.12.5):
+    - AWSCore (= 2.12.5)
+  - AWSMobileClient (2.12.5):
+    - AWSAuthCore (= 2.12.5)
+    - AWSCognitoIdentityProvider (= 2.12.5)
+  - Braintree/Apple-Pay (4.31.0):
+    - Braintree/Core
+  - Braintree/Card (4.31.0):
+    - Braintree/Core
+  - Braintree/Core (4.31.0)
+  - Braintree/PaymentFlow (4.31.0):
+    - Braintree/Card
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPal (4.31.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.31.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.31.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.31.0)
+  - Braintree/UnionPay (4.31.0):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/Venmo (4.31.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - BraintreeDropIn (7.5.0):
+    - BraintreeDropIn/DropIn (= 7.5.0)
+  - BraintreeDropIn/DropIn (7.5.0):
+    - Braintree/Card (~> 4.30)
+    - Braintree/Core (~> 4.30)
+    - Braintree/PaymentFlow (~> 4.30)
+    - Braintree/PayPal (~> 4.30)
+    - Braintree/UnionPay (~> 4.30)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (7.5.0)
+  - Charts (3.4.0):
+    - Charts/Core (= 3.4.0)
+  - Charts/Core (3.4.0)
+  - Crashlytics (3.14.0):
+    - Fabric (~> 1.10.2)
+  - Curve25519 (1.1)
+  - Fabric (1.10.2)
+  - MaterialComponents/AnimationTiming (96.0.0)
+  - MaterialComponents/Buttons (96.0.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (96.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (96.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (96.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (96.0.0)
+  - MaterialComponents/private/Color (96.0.0)
+  - MaterialComponents/private/KeyboardWatcher (96.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (96.0.0)
+  - MaterialComponents/private/Overlay (96.0.0)
+  - MaterialComponents/Ripple (96.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/schemes/Color (96.0.0):
+    - MaterialComponents/private/Color
+  - MaterialComponents/ShadowElevations (96.0.0)
+  - MaterialComponents/ShadowLayer (96.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (96.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Snackbar (96.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+  - "MaterialComponents/Snackbar+ColorThemer (96.0.0)":
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/Snackbar
+  - MaterialComponents/Typography (96.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MBProgressHUD (1.1.0)
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
+  - SDWebImage (5.4.2):
+    - SDWebImage/Core (= 5.4.2)
+  - SDWebImage/Core (5.4.2)
+  - SVProgressHUD (2.2.5)
+  - SwiftProtobuf (1.7.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AMProgressBar
+  - AWSCore
+  - AWSIoT
+  - AWSMobileClient
+  - Braintree/Apple-Pay
+  - Braintree/PayPal
+  - Braintree/Venmo
+  - BraintreeDropIn
+  - Charts
+  - Crashlytics
+  - Curve25519 (~> 1.1.0)
+  - Fabric
+  - "MaterialComponents/Snackbar+ColorThemer"
+  - MBProgressHUD (~> 1.1.0)
+  - SDWebImage
+  - SVProgressHUD
+  - SwiftProtobuf (~> 1.7.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AMProgressBar
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSIoT
+    - AWSMobileClient
+    - Braintree
+    - BraintreeDropIn
+    - Charts
+    - Crashlytics
+    - Curve25519
+    - Fabric
+    - MaterialComponents
+    - MBProgressHUD
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - SDWebImage
+    - SVProgressHUD
+    - SwiftProtobuf
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AMProgressBar: 3f4671c4af4cb4fc9864ddc0a688450c8c7d1561
+  AWSAuthCore: 6b81b748f2fc0b315cda0acdf55f3a540eb8f9b7
+  AWSCognitoIdentityProvider: 7c8cbd6477fd84ccce33a349a46fb44d07edb252
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 543d1c281ad08401d0a99e181526aa529051a8ad
+  AWSIoT: 09549f30b376fc08c125f78757fbf4df7d4c94d9
+  AWSMobileClient: 5ce94de58005c3042e99d51c2e6bec7956ef2b36
+  Braintree: c20fb599a8cfee54ad7dfc603dee68f0922bfcba
+  BraintreeDropIn: 15d6f53bf80bc0ae7809ab17803100c0a5448fd2
+  Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+  Crashlytics: 540b7e5f5da5a042647227a5e3ac51d85eed06df
+  Curve25519: 5f595e906bd962248665978e2992a1fe96e2d831
+  Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
+  MaterialComponents: df9ba0150df145e9e4c0337a8b0b8b61d7093332
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  SDWebImage: 4ca2dc4eefae4224bea8f504251cda485a363745
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftProtobuf: 4fd9645e69b72cbae6ec8da5be0cdd20ca6565dd
+
+PODFILE CHECKSUM: 431bd532035d73cf26084ef490f851b967aab037
+
+COCOAPODS: 1.8.4
